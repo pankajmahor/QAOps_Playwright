@@ -19,7 +19,7 @@ test('Client App login', async ({ page }) => {
 
     await page.waitForLoadState('networkidle');
     await page.locator('.card-body b').first().waitFor();
-// commit changes
+// commit changes3git
     const count = await products.count();
     console.log(count);
 
